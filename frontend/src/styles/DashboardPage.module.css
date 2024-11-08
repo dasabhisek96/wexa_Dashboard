@@ -1,0 +1,106 @@
+/* Container */
+.dashboardContainer {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 200px;
+    background-color: #4CAF50; /* Green color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .sidebar h3 {
+    font-size: 1.2rem;
+    margin-bottom: auto;
+  }
+  
+  .logoutButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: auto;
+  }
+  
+  .logoutButton:hover {
+    color: #333;
+  }
+  
+  /* Main Content */
+  .mainContent {
+    flex: 1;
+    background-color: #3498DB; /* Blue color */
+    padding: 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  .mainContent h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Post Container */
+  .postContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Post Card */
+  .postCard {
+    width: 200px;
+    background-color: #B3B3B3; /* Gray color for post background */
+    padding: 15px;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+  }
+  
+  .postCard h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .postImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .placeholderImage {
+    width: 100%;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Post Actions */
+  .postActions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .postActions button {
+    background-color: transparent;
+    border: none;
+    font-size: 0.9rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .postActions button:hover {
+    color: #ff5a79;
+  }
+  
